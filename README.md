@@ -1,5 +1,6 @@
-# Reproduction code, supplementary materials for [Adapting Multilingual Embedding Models to Historical Luxembourgish](https://www.arxiv.org/abs/2502.07938)
+# [Adapting Multilingual Embedding Models to Historical Luxembourgish](https://www.arxiv.org/abs/2502.07938) Reproduction code, models and datasets
 ![License: AGPLV3+](https://img.shields.io/badge/License-AGPLV3+-brightgreen.svg)
+
 
 ## Overview
 
@@ -34,7 +35,7 @@ Training Set:
 
 [HistLuxAlign](https://huggingface.co/datasets/impresso-project/HistLuxAlign)
 
-Bitext Mining Test Set (already prepared for convinience):
+Bitext Mining Test Set (already prepared for convenience):
 
 [GoogleDriveLink](https://drive.google.com/file/d/1B_na_iXXa5nNcfh8L7sNIln9hNkji0ad/view?usp=share_link)
 
@@ -52,14 +53,26 @@ If you are interested in contributing or need further support reproducing/recrea
 If you would like to cite this project, or the associated paper, here's a bibtex:
 
 ```bibtex
-@misc{michail2025adaptingmultilingualembeddingmodels,
-      title={Adapting Multilingual Embedding Models to Historical Luxembourgish}, 
-      author={Andrianos Michail and Corina Julia Raclé and Juri Opitz and Simon Clematide},
-      year={2025},
-      eprint={2502.07938},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.07938}, 
+@inproceedings{michail-etal-2025-adapting,
+    title = "Adapting Multilingual Embedding Models to Historical {L}uxembourgish",
+    author = "Michail, Andrianos  and
+      Racl{\'e}, Corina  and
+      Opitz, Juri  and
+      Clematide, Simon",
+    editor = "Kazantseva, Anna  and
+      Szpakowicz, Stan  and
+      Degaetano-Ortlieb, Stefania  and
+      Bizzoni, Yuri  and
+      Pagel, Janis",
+    booktitle = "Proceedings of the 9th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2025)",
+    month = may,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.latechclfl-1.26/",
+    doi = "10.18653/v1/2025.latechclfl-1.26",
+    pages = "291--298",
+    ISBN = "979-8-89176-241-1",
 }
 ```
 
